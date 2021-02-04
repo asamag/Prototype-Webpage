@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navheader {
+  overflow: hidden;
+}
+
+.navheader a {
+float: left;
+color: rgb(72,72,72);
+padding: 10px;
+}
+.navheader-left{
+  float: left;
+  position: fixed;
+}
+.navheader-right {
+position: fixed;
+right: 0;
+
+}
+.loginText a{
+  color: rgb(72,72,72);
+}
+.navheader a:hover {
+background-color: #ddd;
+}
+
+body {
+    background-image:url("https://c.pshere.com/photos/5e/de/background_background_image_clouds_cloudy_cloudy_sky_cold_dawn_desktop_backgrounds-1000061.jpg!d");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  #Comment{
+size: 200px;
+  }
+  button{
+    background-color: rgb(243, 46, 46);
+    border: none;
+    color: white;
+    padding: 25px 35px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: top;
+    border-width: 0.5px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  }
+  button:hover {
+    background-color: rgb(220, 23, 23);
+  }
+  input[type=submit]{
+    background-color: rgb(243, 46, 46);
+    border: none;
+    color: white;
+    padding: 25px 35px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: top;
+    border-width: 0.5px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 8px;
+
+  }
+  input[type=submit]:hover {
+    background-color: rgb(220, 23, 23);
+  }
+input[type=text]{
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #888; 
+}
+input[type=password]{
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+    border: 1px solid #888; 
+}
+input[type=text]:focus {
+  
+  border-color:rgb(65, 65, 65);
+    
+}
+input[type=password]:focus{
+  
+  border-color:rgb(65, 65, 65);
+}
+#startPageLogOut{
+  float: right;
+  vertical-align: top;
+  left: 25px;
+}
+/*#startPageWrapper{
+  text-align: center;
+} */
+input[name=comment]{
+  text-align: top;
+  font-size: 16px;
+  padding: 0;
+  height: 64px;
+  position: relative;
+  left: 0;
+}
+#headofPage{
+  font-size: 20px;
+}
+#h2Username{
+  text-align: left;
+  font-style: italic;
+  font-size: 18px;
+  
+}
+.content-area{
+  display: flex; 
+   text-align: center;
+  flex-direction: column;
+}
+.printDiv{
+  float: center;
+  text-align: left;
+  word-break: break-word;
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-style: inset;
+  border-radius: 5px;
+  width: 500px;
+  /*padding-left: 5px;
+  padding-top: 3px; */
+  padding: 12px 20px;
+  margin-bottom: 5px;
+  }
+#someId{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 1px;
+  border-color: black;
+}
+.wrapper{
+  text-align: center;
+}
+.indexLog{
+  font-size: 22px;
+}
+.indexReg{
+  font-size: 22px;
+}
+.breakDiv{
+  padding-top: 10%;
+}
+textarea{
+  resize: none;
+  width: 440px;
+  height: 200px;
+  border-radius: 8px;
+}
+.fiveBreakDiv{
+  padding-top: 5%;
+}
+.threeBreakDiv{
+  padding-top: 3%;
+}
+input[name=comment]{
+  color: #888;
+}
